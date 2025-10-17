@@ -1,5 +1,5 @@
 public class DnDCharacter {
-    private String name;
+    private final String name;
     private int strength;
     private int intelligence;
     private int charisma;
@@ -11,7 +11,7 @@ public class DnDCharacter {
         this.charisma = charisma;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
@@ -25,5 +25,17 @@ public class DnDCharacter {
 
     public int getCharisma() {
         return charisma;
+    }
+
+    public void trainStrength() {
+        strength++;
+    }
+
+    public void trainIntelligence() {
+        intelligence++;
+    }
+
+    public void trainCharisma() {
+        charisma++;
     }
 }
