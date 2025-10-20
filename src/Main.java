@@ -9,6 +9,8 @@ public class Main {
         PromptCreateCharacters(characters);
         printCharacters(characters);
 
+        // TEST :)
+
         while (true){
             Tools.printToConsole("""
                 
